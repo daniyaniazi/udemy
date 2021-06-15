@@ -1,0 +1,53 @@
+[
+  {
+    "category": "Development",
+    "topics": [
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      }
+    ]
+  },
+  {
+    "category": "Design",
+    "topics": [
+      {
+        "name": "Photoshop",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      }
+    ]
+  },
+  {
+    "category": "Bussiness",
+    "topics": [
+      {
+        "name": "SQL",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      },
+      {
+        "name": "Python",
+        "noOfStudents": "12,040"
+      }
+    ]
+  }
+]

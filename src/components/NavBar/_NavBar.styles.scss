@@ -1,0 +1,58 @@
+.Navbar__container {
+  display: flex;
+  padding: 5px;
+
+  box-sizing: border-box;
+  background-color: $white;
+  width: 100%;
+  justify-content: space-around;
+}
+.brand__container {
+  display: flex;
+  align-items: center;
+  .brand-img {
+    width: 30px;
+    height: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .brand-name {
+    font-weight: bold;
+  }
+}
+
+.search-bar__conatiner {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  height: 45px;
+  align-self: center;
+  background-color: $light-grey;
+  padding: 0px 20px;
+  border-radius: 50px;
+  border: 1px solid $mid-grey;
+  &:focus-within {
+    border: 1px solid $grey;
+  }
+  .search-bar-input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-left: 5px;
+    background-color: $light-grey;
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0%;
+}

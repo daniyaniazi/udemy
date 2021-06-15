@@ -1,0 +1,233 @@
+.explore {
+  &__container {
+    margin: 0px 40px;
+    margin-top: 60px;
+    h2 {
+      margin: 5px 0px;
+    }
+    p {
+      margin: 0px;
+    }
+  }
+}
+.explore-nav {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding-left: 0px;
+    font-weight: bolder;
+    li {
+      margin-right: 15px;
+    }
+  }
+}
+
+.course {
+  &__block {
+    padding: 30px;
+    border: 1px solid $mid-grey;
+    border-radius: 5px;
+  }
+  &__conatiner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    .course-description {
+      width: 50%;
+      p {
+        margin: 15px 0px;
+      }
+    }
+  }
+}
+.course-card-content {
+  display: flex;
+  position: relative;
+  height: max-content;
+}
+.course-cards {
+  &__conatiner {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+    .course-card {
+      box-sizing: border-box;
+      width: 220px;
+      height: 280px;
+      margin: 10px;
+      color: $dark-grey;
+      img {
+        width: 100%;
+      }
+
+      .course-title {
+        margin: 3px 0px;
+      }
+      .course-author {
+        color: $grey;
+        font-size: small;
+      }
+      .course-rating {
+        color: $secondary;
+        font-weight: bold;
+      }
+      .course-price {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.next-slider {
+  &__container {
+    padding: 10px 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px $grey;
+    position: absolute;
+    right: -13px;
+    top: 20%;
+    background-color: $white;
+    &:hover {
+      background-color: $white;
+    }
+    button {
+      outline: none;
+      border: none;
+      background-color: $white;
+      color: $primary;
+      &:hover {
+        color: $primary-dark;
+      }
+    }
+  }
+}
+
+.prev-slider__container {
+  background-color: $white;
+  padding: 10px 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px $grey;
+  position: absolute;
+  left: -13px;
+  top: 20%;
+  z-index: 999;
+  &:hover {
+    background-color: $white;
+  }
+  button {
+    outline: none;
+    border: none;
+    background-color: $white;
+    color: $primary;
+    &:hover {
+      color: $primary-dark;
+    }
+  }
+}
+
+.modal-card-conatiner-left {
+  right: 102%;
+  ::after {
+    content: " ";
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(255, 255, 255);
+    box-shadow: inset 1px 2px 3px $mid-grey;
+  }
+}
+.modal-card-conatiner-right {
+  left: 102%;
+  ::after {
+    content: " ";
+    position: absolute;
+    top: 20%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+    box-shadow: inset 1px 2px 3px $mid-grey;
+  }
+}
+.modal-card-conatiner {
+  position: absolute;
+  background-color: $white;
+  // left: 105%;
+  z-index: 999;
+  padding: 20px;
+  width: 270px;
+  border: 1px solid $mid-grey;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px $mid-grey;
+
+  h3 {
+    margin: 4px;
+  }
+  .modal-course-date {
+    color: $green;
+    font-size: small;
+    span {
+      font-weight: bold;
+    }
+  }
+  .modal-course-detail {
+    font-weight: lighter;
+    font-size: small;
+    color: $grey;
+  }
+  .modal-course-description {
+    margin-top: 5px;
+    color: $dark-grey;
+    font-size: 14px;
+    ul {
+      padding: 0px;
+      li {
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .modal-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .cart-btn {
+      width: 70% !important;
+      padding: 15px 0px;
+    }
+    .whislist-btn {
+      width: 40px;
+      border-radius: 50%;
+      height: 40px;
+      padding: 0px;
+    }
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./variables.scss";
+@import "./constants.scss";
+@import "../components/NavBar/_NavBar.styles.scss";
+@import "../components/Banner/Banner.scss";
+@import "../components/Explore/Explore.scss";
+@import "../components/Categories/Categories.scss";
+@import "../components/CourseDetail/Course.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+@import "../../node_modules/slick-carousel/slick/slick.css";
+@import "../components//TopCategories/TopCategories.scss";
+@import "../components/InstructorAdvert/InstructorAverstiment.scss";
+@import "../components/TrustedCompanies/TrustedCompanies.scss";
+@import "../components/BusinessAdvert/BussinessAdvert.scss";
+@import "../components/EducationAdvert/EducationAdvert.scss";
+@import "../components/ImportantLinks/ImportantLinks.scss";
+@import "../components/Footer/Footer.scss";

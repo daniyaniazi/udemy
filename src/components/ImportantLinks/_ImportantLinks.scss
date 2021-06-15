@@ -1,0 +1,32 @@
+.important-links {
+  &__container {
+    .important-links-body {
+      margin: 40px;
+      .important-links-contents {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        button {
+          font-size: 16px;
+          font-weight: lighter;
+        }
+        .links__container {
+          display: flex;
+          .link-body {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            a {
+              margin: 5px 0px;
+              font-size: small;
+              color: $primary;
+              &:hover {
+                color: $primary-dark;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

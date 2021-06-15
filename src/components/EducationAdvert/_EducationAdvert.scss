@@ -1,0 +1,27 @@
+.education-advertisement {
+  &__container {
+    .education-advertisement-body {
+      width: 80%;
+      margin: 80px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      .education-advert-card {
+        color: $dark-grey;
+        width: 400px;
+        margin-left: 60px;
+        h2 {
+          font-size: xx-large;
+          margin-bottom: 10px;
+        }
+        p {
+          margin-top: 0px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  color: $dark-grey;
+  &:hover {
+    color: $primary;
+  }
+}
+a {
+  text-decoration: none;
+  color: #3c3b37;
+  &:hover {
+    color: $primary;
+  }
+}
+a:visited {
+  text-decoration: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+hr {
+  border: 1px solid $mid-grey;
+}
+.grey-text {
+  color: $grey;
+}
+.btn {
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.btn-main {
+  background: $brand;
+  color: $white;
+}
+.btn-primary {
+  background-color: $primary;
+  color: $white;
+  &:hover {
+    background-color: $primary-dark;
+  }
+}
+.btn-primary-outline {
+  background-color: $white;
+  color: $primary;
+  border: 1px solid $primary;
+  &:hover {
+    border: 1px solid $primary-dark;
+    color: $primary-dark;
+  }
+}
+.btn-secondary-outline {
+  background-color: $white;
+  color: $grey;
+  border: 1px solid $grey;
+}
+.icon-bordered {
+  padding: 8px 10px;
+  border: 1px solid $grey;
+  border-radius: 5px;
+}
+.badge {
+  padding: 2px 0px;
+  margin: 10px 0px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  background-color: $secondaty-light;
+  color: $secondary-dark;
+}
+.slick-prev,
+.slick-next {
+  z-index: 999999999;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: $primary;
+  &:hover {
+    color: $primary-dark;
+    background-color: $white;
+  }
+}
+.slick-list {
+  height: 310px;
+}

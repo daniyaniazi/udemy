@@ -1,0 +1,12 @@
+.footer {
+  &__conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    .copyright-text {
+      color: grey;
+      font-size: small;
+    }
+  }
+}

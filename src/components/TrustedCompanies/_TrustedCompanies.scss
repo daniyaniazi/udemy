@@ -1,0 +1,17 @@
+.comapnies {
+  &__container {
+    text-align: center;
+    color: $dark-grey;
+    margin: 40px 0px;
+    .companies-logo {
+      &__conatiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          margin: 0px 20px;
+        }
+      }
+    }
+  }
+}

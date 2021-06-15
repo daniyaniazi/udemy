@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Course 1",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "true"
+  },
+  {
+    "id": 2,
+    "name": "Course 2",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "true"
+  },
+  {
+    "id": 3,
+    "name": "Course 3",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "false"
+  },
+  {
+    "id": 4,
+    "name": "Course 4",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "false"
+  },
+  {
+    "id": 5,
+    "name": "Course 5",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "true"
+  },
+  {
+    "id": 6,
+    "name": "Course 6",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "true"
+  },
+  {
+    "id": 7,
+    "name": "Course 7",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "true"
+  },
+  {
+    "id": 8,
+    "name": "Course 8",
+    "author": "Author 1",
+    "price": "$87.7",
+    "rating": "3.5",
+    "total_students": "12,000",
+    "is_bestseller": "flase"
+  }
+]

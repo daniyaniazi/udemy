@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Design",
+    "imgUrl": "https://s.udemycdn.com/home/top-categories/lohp-category-design.jpg"
+  },
+  {
+    "name": "Development",
+    "imgUrl": "https://s.udemycdn.com/home/top-categories/lohp-category-development.jpg"
+  },
+  {
+    "name": "Marketing",
+    "imgUrl": "https://s.udemycdn.com/home/top-categories/lohp-category-marketing.jpg"
+  },
+  {
+    "name": "IT and Software",
+    "imgUrl": "https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software.jpg"
+  },
+  {
+    "name": "Personal Development",
+    "imgUrl": "https://s.udemycdn.com/home/top-categories/lohp-category-personal-development.jpg"
+  }
+]
